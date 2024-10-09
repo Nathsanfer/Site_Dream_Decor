@@ -123,3 +123,18 @@
     width: 33.26%;
     text-align: center;
 }
+
+/*--------*/
+/* Imagem */
+/*--------*/
+
+.image_main {
+    width: 100%;
+    height: 59rem;
+    overflow-y: hidden;
+}
+
+.image_main img {
+    width: 100%;
+    height: 100%;
+}
