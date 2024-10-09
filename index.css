@@ -1,0 +1,101 @@
+/*-------------*/
+/* Google Font */
+/*-------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*-----------*/
+/* Variáveis */
+/*-----------*/
+
+:root {
+    --verde-escuro: #449156;
+    --verde-claro: #77c88a;
+    --branco-fundo: #f9f3ea;
+    --cinza-claro: #f5ece0;
+    --cinza-escuro: #666568;
+    --preto: #4d4d4d;
+    --branco: #fff;
+}
+
+/*---------------------*/
+/* Configuraçõa padrão */
+/*---------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+    background-color: var(--branco-fundo);
+    overflow-x: hidden;
+}
+
+/*------------*/
+/*   Header   */
+/*------------*/
+
+.container_header {
+    height: 11rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_titulo {
+    height: 100%;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_titulo a {
+    text-decoration: none;
+}
+
+.logo_titulo h2 {
+    font-size: 30px;
+    color: var(--verde-escuro);
+    text-decoration: none;
+}
+
+.links_navegacao {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+
+.links_navegacao a {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.links_navegacao a:hover {
+    color: var(--verde-escuro);
+}
+
+.links_icones {
+    height: 100%;
+    display: flex;
+    width: 30%;
+}
+
+.links_icones a {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+} 
+
+.links_icones img {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
