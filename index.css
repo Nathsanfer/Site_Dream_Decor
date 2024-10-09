@@ -99,3 +99,27 @@
     display: flex;
     align-items: center;
 }
+
+/*------------*/
+/*  Promoção  */
+/*------------*/
+
+.promocao {
+    background-color: var(--cinza-claro);
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.promocao .divisoria {
+    background-color: var(--verde-escuro) ;
+    width: 0.1%;
+    height: 70%;
+}
+
+.promocao .container1, .container2, .container3 {
+    background-color: var(--cinza-claro);
+    width: 33.26%;
+    text-align: center;
+}
